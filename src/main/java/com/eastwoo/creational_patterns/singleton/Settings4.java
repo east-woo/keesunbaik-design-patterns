@@ -1,9 +1,11 @@
 package com.eastwoo.creational_patterns.singleton;
 
+import java.io.Serializable;
+
 /**
  * static inner 클래스 홀더
  */
-public class Settings4 {
+public class Settings4 implements Serializable {
 
     private Settings4() { }
 
@@ -15,4 +17,7 @@ public class Settings4 {
         return Settings4Holder.INSTANCE;
     }
 
+    protected Object readResolve() {
+        return getInstance();
+    }
 }

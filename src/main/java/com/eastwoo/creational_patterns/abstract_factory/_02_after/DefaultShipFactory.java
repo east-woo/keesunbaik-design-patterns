@@ -1,7 +1,6 @@
-package com.eastwoo.creational_patterns.abstract_factory._01_before;
+package com.eastwoo.creational_patterns.abstract_factory._02_after;
 
-import com.eastwoo.creational_patterns.factory_method._02_after.Ship;
-import com.eastwoo.creational_patterns.factory_method._02_after.ShipFactory;
+
 
 public abstract class DefaultShipFactory implements ShipFactory {
 
