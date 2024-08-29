@@ -1,6 +1,7 @@
 package com.eastwoo.structural_patterns.adapter.after;
 
-import me.whiteship.designpatterns._02_structural_patterns._06_adapter._02_after.security.UserDetails;
+
+import com.eastwoo.structural_patterns.adapter.after.security.UserDetails;
 
 public class AccountUserDetails implements UserDetails {
 

@@ -1,7 +1,8 @@
 package com.eastwoo.structural_patterns.adapter.after;
 
-import me.whiteship.designpatterns._02_structural_patterns._06_adapter._02_after.security.LoginHandler;
-import me.whiteship.designpatterns._02_structural_patterns._06_adapter._02_after.security.UserDetailsService;
+
+import com.eastwoo.structural_patterns.adapter.after.security.LoginHandler;
+import com.eastwoo.structural_patterns.adapter.after.security.UserDetailsService;
 
 public class App {
 
